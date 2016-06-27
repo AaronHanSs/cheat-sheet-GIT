@@ -5,33 +5,29 @@
         width: auto;
     height: auto;
   }
+  /* responsive */
 }
+
 body {
   background-color: #AFD1EF;
+  /*fond d'écran */
 }
-h1{
+
+h1,title,th{
   text-align: center;
-}
-title {
-  text-align: center;
+  /* alignement des texte */
 }
 
 div{
   display: inline-table;
 }
+
 .table-1{
-
   float: right;
-
 }
+
 .table-2{
   float: left;
-
-}
-
-}
-th{
-  text-align: center;
 }
 
 .color{
