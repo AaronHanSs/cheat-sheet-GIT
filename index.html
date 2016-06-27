@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+      <meta charset="utf-8">
+        <title> Commande Git </title>
+    </head>
+      <body>
+        <div class="conteneur">
+        <h1> Commande Git </h1>
+        <!-- Titre de la page -->
+        <div class="table-1">
+        <!-- 1er div -->
+        <table>
+        <!-- création du premier tableau -->
+          <thead>
+          <!-- crétation de l'en tête du tableau -->
+          <tr>
+            <th> CONFIGURATION DES OUTILS </th>
+          </tr>
+          </thead>
+            <tbody>
+            <!-- création du contenu prncipal du tableau -->
+              <tr>
+                <td class="color"> $ git config --global user.name "[nom]" </td>
+              </tr>
+              <tr>
+                <td> Définit le nom que vous voulez associer à toutes vos opérations de commit </td>
+              </tr>
+              <tr>
+                <td class="color"> $ git config --global user.email "[adresse email]" </td>
+              </tr>
+              <tr>
+                <td> Définit l'email que vous voulez associer à toutes vos opérations de commit </td>
+              </tr>
+              <tr>
+                <td class="color"> $ git config --global color.ui auto </td>
+              </tr>
+              <tr>
+                <td> Active la colorisation de la sortie en ligne de commande </td>
+              </tr>
+            </tbody>
+          <!--fin du tableau -->
+        </table>
+        <table>
+
+        <!-- 2éme tableau -->
+          <thead>
+            <tr>
+              <th> EFFECTUER DES CHANGEMENTS </th>
+              <!-- 2éme titre -->
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td class="color"> $ git status </td>
+              </tr>
+              <tr>
+                <td> Liste tous les nouveaux fichiers et les fichiers modifiés à commiter </td>
+              </tr>
+              <tr>
+                <td class="color"> $ git diff </td>
+              </tr>
+              <tr>
+                <td> Montre les modifications de fichier qui ne sont pas encore indexées </td>
+              </tr>
+              <tr>
+                <td class="color"> $ git add [fichier] </td>
+              </tr>
+              <tr>
+                <td> Ajoute un instantané du fichier, en préparation pour le suivi de version </td>
+              </tr>
+          </tbody>
+       </table>
+     </div>
+     <div class="table-2">
+       <!-- 2éme div -->
+       <table>
+        <!-- 3éme tableau -->
+        <thead>
+          <tr>
+            <th> GROUPER DES CHANGEMENTS </th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <td class="color"> $ git branch </td>
+            </tr>
+            <tr>
+              <td> Liste toutes les branches locales dans le dépôt courant </td>
+            <tr>
+              <td class="color"> $ git branch [nom-de-branche] </td>
+            </tr>
+            <tr>
+              <td> Crée une nouvelle branche </td>
+            </tr>
+            <tr>
+              <td class="color"> $ git checkout [nom-de-branche] </td>
+            </tr>
+            <tr>
+              <td> Bascule sur la branche spécifiée et met à jour le répertoire de travail </td>
+            </tr>
+          </tbody>
+          <!-- fin tableau -->
+       </table>
+     </div>
+         <table>
+           <!-- 4éme tableau -->
+         <thead>
+           <tr>
+             <th> CHANGEMENTS AU NIVEAU DES NOMS DE FICHIERS </th>
+           </tr>
+         </thead>
+          <tbody>
+            <tr>
+              <td class="color"> $ git rm [fichier] </td>
+            </tr>
+            <tr>
+              <td> Supprime le fichier du répertoire de travail et met à jour l'index </td>
+            </tr>
+            <tr>
+              <td class="color">  $ git rm --cached [fichier] </td>
+            </tr>
+            <tr>
+              <td> Supprime le fichier du système de suivi de version mais le préserve localement </td>
+            </tr>
+            <tr>
+              <td class="color"> $ git mv [fichier-nom] [fichier-nouveau-nom] </td>
+            </tr>
+            <tr>
+              <td> Renomme le fichier et prépare le changement pour un commit </td>
+            </tr>
+          </tbody>
+          <!-- fin tableau -->
+       </table>
+     </div>
+   </div>
+      </body>
+  </html>

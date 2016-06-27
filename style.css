@@ -1,0 +1,39 @@
+@media screen and (max-width: 1024px)
+ {
+  font-size: 1em;
+  {
+        width: auto;
+    height: auto;
+  }
+}
+body {
+  background-color: #AFD1EF;
+}
+h1{
+  text-align: center;
+}
+title {
+  text-align: center;
+}
+
+div{
+  display: inline-table;
+}
+.table-1{
+
+  float: right;
+
+}
+.table-2{
+  float: left;
+
+}
+
+}
+th{
+  text-align: center;
+}
+
+.color{
+  color: green;
+}
